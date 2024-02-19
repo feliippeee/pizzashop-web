@@ -2,7 +2,7 @@ import { Outlet } from 'react-router-dom'
 export function Authlayout() {
     return (
         <div>
-            <h1>Autenticação</h1>
+            <h1 className='flex flex-'>Autenticação</h1>
 
             <div>
                 <Outlet />
