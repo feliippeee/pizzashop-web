@@ -3,6 +3,7 @@ import { Dashboard } from './pages/app/dashboard'
 import { SignIn } from './pages/auth/sign-in'
 import { Applayout } from './pages/_layouts/app'
 import { SignUp } from './pages/auth/sign-up'
+import { Orders } from './pages/app/orders/orders'
 
 export const router = createBrowserRouter([
     {
@@ -10,6 +11,10 @@ export const router = createBrowserRouter([
         element: <Applayout />,
         children: [{path: '/', element: <Dashboard />}],
     },
+    {
+        path: '/orders',
+        element: <Orders />,
+      },
 
     {
         path: '/',
