@@ -43,7 +43,6 @@ export function OrderTableRow({order}: OrderTableRowProps) {
           addSuffix: true,
         })}
       </TableCell>
-      <TableCell className="text-muted-foreground">há 15 minutos</TableCell>
       <TableCell>
       <OrderStatus status={order.status} />
       </TableCell>
